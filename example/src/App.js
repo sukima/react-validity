@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-validity'
-import 'react-validity/dist/index.css'
+import { ExampleForm } from './example-form';
+import 'react-validity/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return <ExampleForm />;
+};
 
-export default App
+export default App;
